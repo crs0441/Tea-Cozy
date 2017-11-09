@@ -1,0 +1,61 @@
+
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+}
+.container {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  height: 2000px;
+}
+.background {
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  z-index: 1;
+}
+.nav {
+  display: inline;
+  text-decoration: underline;
+  position: fixed;
+  right: 0;
+  align-items: center;
+}
+.logo {
+display: inline;
+height: 50px;
+position: fixed;
+left: 0;
+}
+.image {
+  position: fixed;
+}
+.mission {
+  position: absolute;
+  width: 100%;
+  height: 140px;
+  vertical-align: middle;
+  text-align: center;
+  z-index: 2;
+  top: 350px;
+  background-color: black;
+}
+.tea {
+  position: absolute;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
